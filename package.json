@@ -1,0 +1,32 @@
+{
+    "name": "responses-generator",
+    "version": "1.0.0",
+    "description": "Generación de respuestas para chatbot",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jagutierrez",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^24.5.0",
+        "jsdoc": "^3.5.5"
+    },
+    "dependencies": {
+        "JSONPath": "^0.11.2",
+        "axios": "^0.18.0",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "fs-extra": "^7.0.1",
+        "jsonwebtoken": "^8.5.1",
+        "method-override": "^3.0.0",
+        "mongodb": "^3.1.13",
+        "mongoose": "^5.5.10",
+        "multer": "^1.4.1",
+        "mysql": "^2.16.0",
+        "nodemon": "^1.19.1",
+        "random-int": "^2.0.1",
+        "scheduled": "^0.5.0",
+        "uuid": "^3.3.2"
+    }
+}
