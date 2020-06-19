@@ -3,8 +3,7 @@ var express = require('express'),
     bodyParser = require("body-parser"),
     methodOverride = require("method-override"),
     fs = require('fs'),
-    mongodbConnection = require("./src/db/connection/mongodbConnectionFactory"),
-    //mysqlConnection = require("./src/db/connection/mysqlConnectionFactory"),
+    mysqlConnection = require("./src/db/connection/mysqlConnectionFactory"),
     mongoose = require("mongoose"),
     config = require('./config');
 

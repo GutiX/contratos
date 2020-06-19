@@ -13,6 +13,9 @@ exports.test = (req, res) => {
  */
 exports.start = (req, res) => {
     let data = req.body;
+    console.log('params UserId: ', req.params.userId);
+    console.log('params isCreator: ', req.params.isCreator);
+    console.log('params userName: ', req.params.userName);
     console.log('Data: ', JSON.stringify(data));
 
     ExampleHandler.getExampleInfo(data)

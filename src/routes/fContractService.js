@@ -5,6 +5,6 @@ const ExampleController = require('../components/example/controller/example.cont
 let router = express.Router();
 
 router.get('/', ExampleController.test);
-router.post('/example', Validator.appValidation, ExampleController.start);
+router.get('/list/user/:userId/creator/:isCreator/name/:userName', Validator.appValidation, ExampleController.start);
 
 module.exports = router;
