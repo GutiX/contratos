@@ -5,18 +5,13 @@ module.exports = {
         "httpType": "http://",
         "hostname": ""
     },
-    "mongodbServer": {
-        "host": "desanodejs",
-        "port": "27017",
-        "databaseName": "lng",
-        "user": "lng",
+    "mysqlServer": {
+        "connectionLimit": 100,
+        "host": "localhost",
+        "port": "3306",
+        "databaseName": "contratos",
+        "user": "guti",
         "password": "Tele1234",
-        "options": {
-            "useMongoClient": true,
-            "server": {
-                "poolSize": 100
-            }
-        }
     },
     "TOKEN_SECRET": process.env.TOKEN_SECRET || "Tele1234",
     "APP_TOKEN": "apptoken",

@@ -46,8 +46,11 @@ app.listen(global.port, function() {
 /**  
  * GENERATOR API 
  */
-var fDomoticService = require('./src/routes/fDomoticService');
-app.use(pathApi + "/domotic", fDomoticService);
+var fContractService = require('./src/routes/fContractService');
+app.use(pathApi + "/contract", fContractService);
+
+var fAuthService = require('./src/routes/fAuthService');
+app.use(pathApi + "/auth", fAuthService);
 
 /**  END GENERATOR API */
 
